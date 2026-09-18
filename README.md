@@ -24,20 +24,28 @@ El dataset y la tabla de BigQuery los creé con Terraform.
 
 ## 📸 Capturas
 
+La tabla donde cargo los datos en Bigquery (GCP)
 ![1](capturas/1.png)
 
+Informe de la tabla con Looker Studio
 ![2](capturas/2.png)
 
+Gráfico de la tabla en Looker Studio (se ve plano porque tiene establecido como métrica las issues abiertas y los que se muestran tienen 0 abiertas)
 ![3](capturas/3.png)
 
+El flujo y los nodos creados en la interfaz de n8n
 ![4](capturas/4.png)
 
+El nodo de Bigquery en n8n con la ejecución de la consulta configurada
 ![5](capturas/5.png)
 
+El nodo Aggregate que reune los resultados de la consulta en un solo elemento.
 ![6](capturas/6.png)
 
+La notificación por correo electrónico
 ![7](capturas/7.png)
 
+Y el contenido de la notificación por correo
 ![8](capturas/8.png)
 
 ## 📁 Estructura del proyecto
