@@ -20,6 +20,7 @@ resource "google_bigquery_dataset" "monitorizacion_de_mis_repos" {
 resource "google_bigquery_table" "tabla_actividad_repos" {
   dataset_id = google_bigquery_dataset.monitorizacion_de_mis_repos.dataset_id
   table_id   = "actividad"
+  deletion_protection = false
 
   schema = jsonencode([
     {
