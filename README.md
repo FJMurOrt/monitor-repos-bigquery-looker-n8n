@@ -1,4 +1,4 @@
-# 📊 Monitorización de actividad de mis repositorios (GitHub + BigQuery + Looker Studio + n8n)
+# 📊 Monitorización de Actividad de Mis Repositorios (GitHub + BigQuery + Looker Studio + n8n)
 
 Este proyecto monitorea o está atento de mis propios repositorios de GitHub. Lo que hace es mirar cuándo fue el último commit de cada uno, cuántas issues tengo abiertas, y me avisa por email si algún repo lleva mucho tiempo sin que le toque.
 
