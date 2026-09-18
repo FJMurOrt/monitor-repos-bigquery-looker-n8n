@@ -9,7 +9,7 @@ Este proyecto monitorea o está atento de mis propios repositorios de GitHub. Lo
 3. Tengo también un dashboard en Looker Studio conectado a esa tabla, para verlo todo de forma clara y también más visual
 4. Y tengo un flujo hecho en n8n que revisa esa tabla de vez en cuando, y si ve que algún repo lleva más de 7 días sin actividad, me manda un email avisándome
 
-## 🧠 Cómo funciona por dentro
+## 🧠 ¿Cómo es el flujo de funcionamiento?
 
 Primer paso - El script en Python le pregunta a GitHub
 Segundo paso - Guardo los datos en BigQuery
@@ -21,8 +21,6 @@ Sexto paso - Me manda un único email con todos ellos
 ## 🛠️ La infraestructura con Terraform
 
 El dataset y la tabla de BigQuery los creé con Terraform.
-
-## 📸 Capturas
 
 ## 📸 Capturas
 
